@@ -1,9 +1,10 @@
 {
-    "name": "lelyfoto/mypos-cashregisterremote",
+    "name": "etrias/mypos-cashregisterremote",
     "description": "",
     "authors": [
         { "name": "Lelyfoto" },
-        { "name": "Michael Erkens" }
+        { "name": "Michael Erkens" },
+        { "name": "Roland Franssen" }
     ],
     "type": "library",
     "license": "GPL-3.0-or-later",
@@ -14,10 +15,10 @@
         }
     },
     "require": {
-        "php": "^8.1",
+        "php": "^7.4",
         "ext-bcmath": "*",
         "ext-soap": "*",
-        "phpro/soap-client": "^2.2"
+        "phpro/soap-client": "^1.7"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
